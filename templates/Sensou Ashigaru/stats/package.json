@@ -1,0 +1,22 @@
+{
+  "name": "signature",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "parcel src/main.pug",
+    "build": "npm run dist:clear && npm run parcel:build && npm run dist:maps",
+    "parcel:build": "parcel build src/main.pug",
+    "dist:clear": "npx trash-cli dist/*",
+    "dist:maps": "npx trash-cli dist/*.map"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-inline": "^2.8.2",
+    "@parcel/transformer-pug": "^2.8.2",
+    "@parcel/transformer-sass": "^2.8.2",
+    "parcel": "^2.8.2"
+  },
+  "browserslist": "> 0.5%, last 2 versions, not dead"
+}
