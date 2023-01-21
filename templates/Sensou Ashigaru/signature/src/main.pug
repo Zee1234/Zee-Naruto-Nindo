@@ -1,0 +1,15 @@
+- let text = "Little bit broken"
+style
+style
+h1.glitch
+  span(aria-hidden="true")=text
+  =text
+  span(aria-hidden="true")=text
+img.glitchedImage(
+  srcset="https://i.imgur.com/6aIwdmu.png 800w, https://i.imgur.com/fg3JnPW.png 480w",
+  sizes="(max-width:600px) 480px, 800px",
+  src="https://i.imgur.com/6aIwdmu.png",
+  alt="Wasogeki"
+)
+link(rel="stylesheet", href="styles/glitch.scss")
+link(rel="stylesheet", href="styles/profileGlitch.css")
