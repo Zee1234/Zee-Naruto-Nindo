@@ -4,10 +4,11 @@
   "description": "",
   "scripts": {
     "dev": "parcel src/main.pug",
-    "build": "npm run dist:clear && npm run parcel:build && npm run dist:maps",
+    "build": "npm run dist:clear && npm run parcel:build && npm run dist:maps && npm run inline:cleanup",
     "parcel:build": "parcel build src/main.pug",
     "dist:clear": "npx trash-cli dist/*",
-    "dist:maps": "npx trash-cli dist/*.map"
+    "dist:maps": "npx trash-cli dist/*.map",
+    "inline:cleanup": "npx html-inline-external --src dist/main.html --minify | npx shx sed \"s/.html..head...head..body.//\" | npx shx sed \"s/..body...html.//\" > out.html"
   },
   "keywords": [],
   "author": "",
