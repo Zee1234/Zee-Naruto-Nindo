@@ -1,0 +1,113 @@
+.sensouContainer
+	form.colorPicker
+		fieldset 
+			legend.sro Pick a color scheme
+			label.sro(for="dark")
+			input#dark(type="radio", name="theme")
+			label.sro(for="light")
+			input#light(type="radio", name="theme")
+	form.tabPicker
+		fieldset 
+			legend.sro Stat Page Tabs 
+			label(for="basics") Basics
+			input#basics(type="radio", name="tab")
+			label(for="backpack") Backpack
+			input#backpack(type="radio", name="tab")
+			label(for="threads") Threads
+			input#threads(type="radio", name="tab")
+			label(for="jutsu") Jutsu
+			input#jutsu(type="radio", name="tab")
+			label(for="skills") Skills
+			input#skills(type="radio", name="tab")
+			label(for="plotter") Plotter
+			input#plotter(type="radio", name="tab")
+	.tab
+		.basics
+			h1 Who Am I?
+			.block
+				dl 
+					dt Age
+					dd 00
+					dt Birthday
+					dd Month and DAy 
+					dt Gender
+					dd asdfl;kj
+					dt rank
+					dd D Rank
+					dt Element
+					dd Fire
+					dt Clan
+					dd
+						a(href="") 
+					dt Bloodline
+					dd Hiden: 
+						a(href="") 
+					dt Stamina Pool
+					dd 1234
+					dt Word Count Bank
+					dd 00
+			h1 
+		.backpack
+			h1 Equipment
+			.block
+				h2 Basic Equipment
+				ul 
+					li a(href="") Item
+					li a(href="") Item
+					li a(href="") Item
+					li a(href="") Item
+					li a(href="") Item
+				h2 Special Equipment
+				h3
+					a(href="") Name
+				p description 
+				h3
+					a(href="") Name
+				p description 
+			h1 Items
+			.block
+				h2 Basic Items
+				ul 
+					li a(href="") Item
+					li a(href="") Item
+					li a(href="") Item
+					li a(href="") Item
+					li a(href="") Item
+				h2 Special Items
+				h3
+					a(href="") Name
+				p description 
+				h3
+					a(href="") Name
+				p description 
+		.threads
+		.jutsu
+		.skills
+		.plotter
+	.footer
+		.stm
+			b 00
+			| Stamina
+			i.cp.cp-stethoscope
+		.pot
+			b 00
+			| Potency
+			i.cp.cp-sword-o
+		.con
+			b 00
+			| Control
+			i.cp.cp-lotus
+		.dex
+			b 00
+			| Dexterity
+			i.cp.cp-bow-and-arrow-o
+		.str
+			b 00
+			| Strength
+			i.cp.cp-pirate-swords-o
+		.hlt
+			b 00
+			| Health
+			i.cp.cp-first-aid-o
+
+link(rel="stylesheet", href="styles/main.scss")

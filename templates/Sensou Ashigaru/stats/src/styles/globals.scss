@@ -1,0 +1,34 @@
+.sensouContainer {
+	/* Custom Properties */
+	--accent-kumo: 240, 202, 83;
+	--accent-kumo-hue: 45;
+	--accent-kumo-sat: 84;
+	--accent-kumo-lit: 63.3;
+	--lightness-dark: 80;
+	--lightness-light: 20;
+
+	--accent-hue: var(--accent-kumo-hue);
+	--accent-sat: var(--accent-kumo-sat);
+	--accent-lit: var(--accent-kumo-lit);
+
+	--accent-hsl: hsl(var(--accent-hue) var(--accent-sat)% var(--accent-lit)%);
+
+	&.dark {
+		--accent-font: hsl(var(--accent-hue) var(--accent-sat)% var(--lightness-light)%);
+		--accent-back: hsl(var(--accent-hue) var(--accent-sat)% var(--lightness-dark)%);
+	}
+	&.light {
+		--accent-font: hsl(var(--accent-hue) var(--accent-sat)% var(--lightness-dark)%);
+		--accent-back: hsl(var(--accent-hue) var(--accent-sat)% var(--lightness-light)%);
+	}
+
+	.sro:not(:focus):not(:active) {
+		clip: rect(0 0 0 0); 
+		clip-path: inset(50%);
+		height: 1px;
+		overflow: hidden;
+		position: absolute;
+		white-space: nowrap; 
+		width: 1px;
+	}
+}

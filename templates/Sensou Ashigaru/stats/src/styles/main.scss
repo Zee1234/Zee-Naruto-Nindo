@@ -1,0 +1,10 @@
+@use 'dev-temp.scss';
+@use 'globals.scss';
+
+.sensouContainer {
+	.tab {
+		display: grid;
+		// overflow-x: hidden;
+		grid-auto-columns: 100%;
+	}
+}
