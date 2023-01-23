@@ -1,113 +1,102 @@
+- var change = 1
 .sensouContainer
-	form.colorPicker
+	form.sensou_colorPicker
 		fieldset 
-			legend.sro Pick a color scheme
-			label.sro(for="dark")
-			input#dark(type="radio", name="theme")
-			label.sro(for="light")
-			input#light(type="radio", name="theme")
-	form.tabPicker
+			legend.sensou_sro Pick a color scheme
+			label.sensou_sro(for="dark")
+			input#sensou_dark(type="radio", name="theme")
+			label.sensou_sro(for="light")
+			input#sensou_light(type="radio", name="theme")
+	form.sensou_tabPicker
 		fieldset 
-			legend.sro Stat Page Tabs 
+			legend.sensou_sro Stat Page Tabs 
 			label(for="basics") Basics
-			input#basics(type="radio", name="tab")
+			input#sensou_basics(type="radio", name="tab")
 			label(for="backpack") Backpack
-			input#backpack(type="radio", name="tab")
+			input#sensou_backpack(type="radio", name="tab")
 			label(for="threads") Threads
-			input#threads(type="radio", name="tab")
+			input#sensou_threads(type="radio", name="tab")
 			label(for="jutsu") Jutsu
-			input#jutsu(type="radio", name="tab")
+			input#sensou_jutsu(type="radio", name="tab")
 			label(for="skills") Skills
-			input#skills(type="radio", name="tab")
+			input#sensou_skills(type="radio", name="tab")
 			label(for="plotter") Plotter
-			input#plotter(type="radio", name="tab")
+			input#sensou_plotter(type="radio", name="tab")
 	.tab
-		.basics
+		.sensou_basics
 			h1 Who Am I?
 			.block
 				dl 
-					dt Age
-					dd 00
-					dt Birthday
-					dd Month and DAy 
-					dt Gender
-					dd asdfl;kj
-					dt rank
-					dd D Rank
-					dt Element
-					dd Fire
-					dt Clan
-					dd
-						a(href="") 
-					dt Bloodline
-					dd Hiden: 
-						a(href="") 
-					dt Stamina Pool
-					dd 1234
-					dt Word Count Bank
-					dd 00
+					for field in data.basics
+						dt= field.field
+						if field.literal
+							dd!= field.literal
+						else
+							dd= field.value
 			h1 
-		.backpack
+		.sensou_backpack
 			h1 Equipment
 			.block
 				h2 Basic Equipment
-				ul 
-					li a(href="") Item
-					li a(href="") Item
-					li a(href="") Item
-					li a(href="") Item
-					li a(href="") Item
+				ul
+					for field in data.backpack.equipment
+						li
+							a(href=field.href)= field.name
 				h2 Special Equipment
-				h3
-					a(href="") Name
-				p description 
-				h3
-					a(href="") Name
-				p description 
+				for field in data.backpack.special.equipment
+					h2
+						a(href=field.href)=field.name
+					for para in field.description
+						p= para
 			h1 Items
 			.block
-				h2 Basic Items
-				ul 
-					li a(href="") Item
-					li a(href="") Item
-					li a(href="") Item
-					li a(href="") Item
-					li a(href="") Item
-				h2 Special Items
-				h3
-					a(href="") Name
-				p description 
-				h3
-					a(href="") Name
-				p description 
-		.threads
-		.jutsu
-		.skills
-		.plotter
-	.footer
-		.stm
-			b 00
-			| Stamina
-			i.cp.cp-stethoscope
-		.pot
-			b 00
-			| Potency
-			i.cp.cp-sword-o
-		.con
-			b 00
-			| Control
-			i.cp.cp-lotus
-		.dex
-			b 00
-			| Dexterity
-			i.cp.cp-bow-and-arrow-o
-		.str
-			b 00
-			| Strength
-			i.cp.cp-pirate-swords-o
-		.hlt
-			b 00
-			| Health
-			i.cp.cp-first-aid-o
+				h2 Basic Equipment
+				ul
+					for field in data.backpack.items
+						li
+							a(href=field.href)= field.name
+				h2 Special Equipment
+				for field in data.backpack.special.items
+					h2
+						a(href=field.href)=field.name
+					for para in field.description
+						p= para 
+		.sensou_threads
+			for thread in data.threads
+				.sensou_thread
+					h2
+						a(href=thread.href)= thread.name
+					for para in thread.description
+						p= para
+					.sensou_members
+						ul
+							//- for member in thread.others
+							//- 	li
+							//- 		a(href=member.href)= member.name
+		.sensou_jutsu
+			for tier in data.jutsu
+				h1= tier.rank
+				for spec in tier.specs
+					h2= spec.spec
+					ul
+						for tech in spec.techniques
+							li
+								a(href=tech.href)= tech.name
+								if tech.extras
+									for extra in tech.extras
+										span(class=extra.class)= extra.value 
+		.sensou_skills
+			for skill in data.skills
+				.sensou_skill
+					h1
+						a(href=skill.href)= skill.name
+					for para in skill.description
+						p= para
+	.sensou_footer
+		for field in data.stats
+			.sensou_stat
+				b= field.value
+				= field.name
+				i.cp(class=field.icon)
 
 link(rel="stylesheet", href="styles/main.scss")

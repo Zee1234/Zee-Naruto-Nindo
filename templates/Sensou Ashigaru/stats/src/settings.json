@@ -1,0 +1,528 @@
+{
+	"basics": [
+		{
+			"field": "Age",
+			"value": "27"
+		},
+		{
+			"field": "Birthday",
+			"value": "Sept. 13th"
+		},
+		{
+			"field": "Gender",
+			"value": "Woman"
+		},
+		{
+			"field": "Rank",
+			"value": "D Rank"
+		},
+		{
+			"field": "Element(s)",
+			"value": "Fire"
+		},
+		{
+			"field": "Clan",
+			"literal": "<a href=\"/index.php?showtopic=2407&st=0&#entry2536\">Ashigaru</a>"
+		},
+		{
+			"field": "Bloodline",
+			"literal": "Hiden <a href=\"/index.php?showtopic=2407&st=0&#entry2536\">Technological Ninja Tools</a>"
+		},
+		{
+			"field": "Stamina Pool",
+			"value": "200"
+		},
+		{
+			"field": "Word Count Bank",
+			"value": "0"
+		}
+	],
+	"stats": [
+		{
+			"name": "Stamina",
+			"icon": "cp-stethoscope",
+			"value": 20
+		},
+		{
+			"name": "Potency",
+			"icon": "cp-sword-o",
+			"value": 60
+		},
+		{
+			"name": "Control",
+			"icon": "cp-lotus",
+			"value": 10
+		},
+		{
+			"name": "Dexterity",
+			"icon": "cp-bow-and-arrow-o",
+			"value": 100
+		},
+		{
+			"name": "Strength",
+			"icon": "cp-pirate-swords-o",
+			"value": 10
+		},
+		{
+			"name": "Health",
+			"icon": "cp-first-aid-o",
+			"value": 200
+		}
+	],
+	"backpack": {
+		"items": [
+			{
+				"href": "#",
+				"name": "Lo and Behold"
+			},
+			{
+				"href": "#",
+				"name": "Lo and Behold"
+			},
+			{
+				"href": "#",
+				"name": "Lo and Behold"
+			},
+			{
+				"href": "#",
+				"name": "Lo and Behold"
+			}
+		],
+		"equipment": [
+			{
+				"href": "#",
+				"name": "Lo and Behold"
+			},
+			{
+				"href": "#",
+				"name": "Lo and Behold"
+			},
+			{
+				"href": "#",
+				"name": "Lo and Behold"
+			},
+			{
+				"href": "#",
+				"name": "Lo and Behold"
+			}
+		],
+		"special": {
+			"items": [
+				{
+					"href": "#",
+					"name": "Lo and Behold",
+					"description": [
+						"Lorem Ipsum Un Dolor Sat",
+						"Lorem Ipsum Un Dolor Sat"
+					]
+				},
+				{
+					"href": "#",
+					"name": "Lo and Behold",
+					"description": [
+						"Lorem Ipsum Un Dolor Sat",
+						"Lorem Ipsum Un Dolor Sat"
+					]
+				},
+				{
+					"href": "#",
+					"name": "Lo and Behold",
+					"description": [
+						"Lorem Ipsum Un Dolor Sat",
+						"Lorem Ipsum Un Dolor Sat"
+					]
+				},
+				{
+					"href": "#",
+					"name": "Lo and Behold",
+					"description": [
+						"Lorem Ipsum Un Dolor Sat",
+						"Lorem Ipsum Un Dolor Sat"
+					]
+				}
+			],
+			"equipment": [
+				{
+					"href": "#",
+					"name": "Lo and Behold",
+					"description": [
+						"Lorem Ipsum Un Dolor Sat",
+						"Lorem Ipsum Un Dolor Sat"
+					]
+				},
+				{
+					"href": "#",
+					"name": "Lo and Behold",
+					"description": [
+						"Lorem Ipsum Un Dolor Sat",
+						"Lorem Ipsum Un Dolor Sat"
+					]
+				},
+				{
+					"href": "#",
+					"name": "Lo and Behold",
+					"description": [
+						"Lorem Ipsum Un Dolor Sat",
+						"Lorem Ipsum Un Dolor Sat"
+					]
+				},
+				{
+					"href": "#",
+					"name": "Lo and Behold",
+					"description": [
+						"Lorem Ipsum Un Dolor Sat",
+						"Lorem Ipsum Un Dolor Sat"
+					]
+				}
+			]
+		}
+	},
+	"threads": [
+		{
+			"href": "#",
+			"name": "Lo and Behold",
+			"description": [
+				"Lorem Ipsum Un Dolor Sat",
+				"Lorem Ipsum Un Dolor Sat"
+			],
+			"others": [
+				{
+					"href": "#",
+					"name": "Lo and Behold"
+				}
+			],
+			"state": "active"
+		},
+		{
+			"href": "#",
+			"name": "Lo and Behold",
+			"description": [
+				"Lorem Ipsum Un Dolor Sat",
+				"Lorem Ipsum Un Dolor Sat"
+			],
+			"others": [
+				{
+					"href": "#",
+					"name": "Lo and Behold"
+				},
+				{
+					"href": "#",
+					"name": "Lo and Behold"
+				}
+			],
+			"state": "active"
+		},
+		{
+			"href": "#",
+			"name": "Lo and Behold",
+			"description": [
+				"Lorem Ipsum Un Dolor Sat",
+				"Lorem Ipsum Un Dolor Sat"
+			],
+			"others": [
+				{
+					"href": "#",
+					"name": "Lo and Behold"
+				},
+				{
+					"href": "#",
+					"name": "Lo and Behold"
+				},
+				{
+					"href": "#",
+					"name": "Lo and Behold"
+				}
+			],
+			"state": "active"
+		}
+	],
+	"jutsu": [
+		{
+			"rank": "S rank",
+			"specs": [
+				{
+					"spec": "Bukijutsu",
+					"techniques": [
+						{
+							"href": "#",
+							"name": "Lo and Behold",
+							"extras": [
+
+							]
+						},
+						{
+							"href": "#",
+							"name": "Lo and Behold",
+							"extras": [
+								{
+									"class": "Mastery",
+									"value": "Mastered Twice"
+								}
+							]
+						}
+					]
+				},
+				{
+					"spec": "Ninjutsu",
+					"techniques": [
+						{
+							"href": "#",
+							"name": "Lo and Behold",
+							"extras": [
+
+							]
+						},
+						{
+							"href": "#",
+							"name": "Lo and Behold",
+							"extras": [
+								
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"rank": "A rank",
+			"specs": [
+				{
+					"spec": "Bukijutsu",
+					"techniques": [
+						{
+							"href": "#",
+							"name": "Lo and Behold",
+							"extras": [
+
+							]
+						},
+						{
+							"href": "#",
+							"name": "Lo and Behold",
+							"extras": [
+								
+							]
+						}
+					]
+				},
+				{
+					"spec": "Ninjutsu",
+					"techniques": [
+						{
+							"href": "#",
+							"name": "Lo and Behold",
+							"extras": [
+
+							]
+						},
+						{
+							"href": "#",
+							"name": "Lo and Behold",
+							"extras": [
+								
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"rank": "B rank",
+			"specs": [
+				{
+					"spec": "Bukijutsu",
+					"techniques": [
+						{
+							"href": "#",
+							"name": "Lo and Behold",
+							"extras": [
+
+							]
+						},
+						{
+							"href": "#",
+							"name": "Lo and Behold",
+							"extras": [
+								
+							]
+						}
+					]
+				},
+				{
+					"spec": "Ninjutsu",
+					"techniques": [
+						{
+							"href": "#",
+							"name": "Lo and Behold",
+							"extras": [
+
+							]
+						},
+						{
+							"href": "#",
+							"name": "Lo and Behold",
+							"extras": [
+								
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"rank": "C rank",
+			"specs": [
+				{
+					"spec": "Bukijutsu",
+					"techniques": [
+						{
+							"href": "#",
+							"name": "Lo and Behold",
+							"extras": [
+
+							]
+						},
+						{
+							"href": "#",
+							"name": "Lo and Behold",
+							"extras": [
+								
+							]
+						}
+					]
+				},
+				{
+					"spec": "Ninjutsu",
+					"techniques": [
+						{
+							"href": "#",
+							"name": "Lo and Behold",
+							"extras": [
+
+							]
+						},
+						{
+							"href": "#",
+							"name": "Lo and Behold",
+							"extras": [
+								
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"rank": "D rank",
+			"specs": [
+				{
+					"spec": "Bukijutsu",
+					"techniques": [
+						{
+							"href": "#",
+							"name": "Lo and Behold",
+							"extras": [
+
+							]
+						},
+						{
+							"href": "#",
+							"name": "Lo and Behold",
+							"extras": [
+								
+							]
+						}
+					]
+				},
+				{
+					"spec": "Ninjutsu",
+					"techniques": [
+						{
+							"href": "#",
+							"name": "Lo and Behold",
+							"extras": [
+
+							]
+						},
+						{
+							"href": "#",
+							"name": "Lo and Behold",
+							"extras": [
+								
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"rank": "E rank",
+			"specs": [
+				{
+					"spec": "Bukijutsu",
+					"techniques": [
+						{
+							"href": "#",
+							"name": "Lo and Behold",
+							"extras": [
+
+							]
+						},
+						{
+							"href": "#",
+							"name": "Lo and Behold",
+							"extras": [
+								
+							]
+						}
+					]
+				},
+				{
+					"spec": "Ninjutsu",
+					"techniques": [
+						{
+							"href": "#",
+							"name": "Lo and Behold",
+							"extras": [
+
+							]
+						},
+						{
+							"href": "#",
+							"name": "Lo and Behold",
+							"extras": [
+								
+							]
+						}
+					]
+				}
+			]
+		}
+	],
+	"skills": [
+		{
+			"href": "#",
+			"name": "Lo and Behold",
+			"description": [
+				"Lorem Ipsum Un Dolor Sat",
+				"Lorem Ipsum Un Dolor Sat"
+			]
+		},
+		{
+			"href": "#",
+			"name": "Lo and Behold",
+			"description": [
+				"Lorem Ipsum Un Dolor Sat",
+				"Lorem Ipsum Un Dolor Sat"
+			]
+		},
+		{
+			"href": "#",
+			"name": "Lo and Behold",
+			"description": [
+				"Lorem Ipsum Un Dolor Sat",
+				"Lorem Ipsum Un Dolor Sat"
+			]
+		}
+	]
+}
