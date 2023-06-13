@@ -1,0 +1,246 @@
+details:
+  first: I don't
+  last: know yet
+  appLink: test
+  age: 21
+  birthday: April 12th
+  gender: Depends on the FC...
+  personality:
+    - >-
+      test 1
+      test 2
+      test 3
+    - >-
+      test 4
+      test 5
+      test 6
+  description:
+    - >-
+      test 1
+      test 2
+      test 3
+    - >-
+      test 4
+      test 5
+      test 6
+  goals:
+    - test goal 1
+    - test goal 2
+    - test goal 3
+  fears:
+    - test fear 1
+    - test fear 2
+    - test fear 3
+  height: 65cm
+  build: ghost-type, ofc
+  story:
+    - name: false
+      details:
+        - >-
+          test 1
+          test 2
+          test 3
+    - name: test 2
+      details:
+        - >-
+          test 1
+          test 2
+          test 3
+        - >-
+          test 4
+          test 5
+          test 6
+fluff:
+  smallQuote: What is strength if you don't care?
+  bigQuote: A hero is not the one who never falls. A hero is the one who gets up, again and again, never losing sight of their dreams.
+stats:
+  stamina: 200
+  potency: 0
+  control: 0
+  dexterity: 200
+  strength: 200
+lists:
+  wordBank: 0
+  items:
+    basic:
+      - name: name of item 1
+        link: \#
+      - name: name of item 2
+        link: \#
+      - name: name of item 3
+        link: \#
+    special:
+      - name: special item 1
+        link: \#
+        description:
+          - >-
+              test 1
+          - >-
+            test 2
+            test 3
+  equipment:
+    basic:
+      - name: name of item 1
+        link: \#
+      - name: name of item 2
+        link: \#
+      - name: name of item 3
+        link: \#
+    special:
+      - name: special item 1
+        link: \#
+        description:
+          - >-
+              test 1
+          - >-
+            test 2
+            test 3
+ninjaDetails:
+  affiliation: YOUR MOM! OOOOOOOOOOOOOOOOOOH!
+  rank: SSS
+  elements:
+    - None 1
+    - None 2
+    - None 3
+  specs:
+    - name: Nonya
+      level: Business
+      blockquote: hrm
+    - name: Nonyato
+      level: Businessto
+      blockquote: hrm
+  family:
+    clan: false
+      # name: None
+      # link: \#
+    kkg: false
+      # name: None
+      # link: \#
+    focus: false
+      # - Ninjutsu
+      # - Genjutsu
+      # - Fuuinjutsu
+      # - OPjutsu
+threads:
+  - name: test1
+    link: \#
+    status: Active
+  - name: test2
+    link: \#
+    status: Open
+  - name: test3
+    link: \#
+    status: Inactive
+
+jutsu:
+  s:
+    - spec: Taijutsu
+      jutsus:
+        - name: test1
+          link: \#
+        - name: test2
+          link: \#
+        - name: test3
+          link: \#
+    - spec: Bukijutsu
+      jutsus:
+      - name: test1
+        link: \#
+      - name: test2
+        link: \#
+      - name: test3
+        link: \#
+  a:
+    - spec: Taijutsu
+      jutsus:
+      - name: test1
+        link: \#
+      - name: test2
+        link: \#
+      - name: test3
+        link: \#
+  b:
+    - spec: Taijutsu
+      jutsus:
+      - name: test1
+        link: \#
+      - name: test2
+        link: \#
+      - name: test3
+        link: \#
+  c:
+    - spec: Taijutsu
+      jutsus:
+      - name: test1
+        link: \#
+      - name: test2
+        link: \#
+      - name: test3
+        link: \#
+  d:
+    - spec: Taijutsu
+      jutsus:
+      - name: test1
+        link: \#
+      - name: test2
+        link: \#
+      - name: test3
+        link: \#
+  e:
+    - spec: Taijutsu
+      jutsus:
+      - name: test1
+        link: \#
+      - name: test2
+        link: \#
+      - name: test3
+        link: \#
+
+skills:
+  - name: FUCKING BROKEN BITCH
+    link: \#
+    details: I CAN'T DO CHAKRA SHIT, CAPICHE?
+  - name: test2
+    link: \#
+    details: fuck if i know
+
+plotter:
+  foes:
+    - name:
+        first: Fucker
+        last: McFuck-Face
+      link: \#
+      quote: What a fucker
+      plot:
+        - >-
+          Words and words
+          and words and words
+        - >-
+          More words and more words
+      picture: https://via.placeholder.com/400x100
+  lovers:
+    - name:
+        first: Fucker
+        last: McFuck-Face
+      link: \#
+      quote: What a fucker
+      plot:
+        - >-
+          Words and words
+          and words and words
+        - >-
+          More words and more words
+      picture: https://via.placeholder.com/400x100
+  friends:
+    - name:
+        first: Fucker
+        last: McFuck-Face
+      link: \#
+      quote: What a fucker
+      plot:
+        - >-
+          Words and words
+          and words and words
+        - >-
+          More words and more words
+      picture: https://via.placeholder.com/400x100

@@ -1,0 +1,128 @@
+.development
+	.dev_traits
+		div
+			span
+				b= stats.stamina
+				|	Stamina
+			i.cp.cp-stethoscope
+		div
+			span
+				b= stats.potency
+				|	Potency
+			i.cp.cp-sword-o
+		div
+			span
+				b= stats.control
+				|	Control
+			i.cp.cp-lotus
+		div
+			span
+				b= stats.dexterity
+				|	Dexterity
+			i.cp.cp-bow-and-arrow-o
+		div
+			span
+				b= stats.strength
+				|	Strength
+			i.cp.cp-pirate-swords-o
+		div
+			span
+				b= stats.health
+				|	Health
+			i.cp.cp-first-aid-o
+	header
+		img(src='https://via.placeholder.com/500x180')
+		div
+		p
+			a(href=details.appLink)
+				b= details.first
+				= ' '+details.last
+			|	small quote here
+	h1= fluff.smallQuote
+	section
+		br
+		b Age
+		= ' '+details.age
+		br
+		b Birthday
+		= ' '+details.birthday
+		br
+		b Gender
+		= ' '+details.gender
+		br
+		br
+		h2 What makes you... you?
+		br
+		br
+		each str in details.personality 
+			p= str
+		br
+		br
+		b Goals
+		ul
+			each str in details.goals
+				li= str
+		br
+		b Fears
+		ul
+			each str in details.fears
+				li= str
+		br
+		br
+		h2 What do you look like?
+		br
+		br
+		each str in details.description 
+			p= str
+		br
+		br
+		b Height
+		= ' '+details.height
+		br
+		b Build
+		= ' '+details.build
+		br
+		br
+		h2 Where are you from?
+		br
+		br
+		b Affiliation
+		= ' '+ninjaDetails.affiliation
+		br
+		b Rank
+		= ' '+ninjaDetails.rank
+		br
+		b Element
+		each ele in ninjaDetails.elements 
+			br
+			= ele
+		br
+		b Specialties
+		each spec in ninjaDetails.specs 
+			br
+			= spec.name + ' @ level ' + spec.level
+		br
+		if ninjaDetails.family.clan
+			b Clan
+			a(href=ninjaDetails.family.clan.link)= ninjaDetails.family.clan.name
+			br
+			b Bloodline
+			br
+			= ninjaDetails.family.kkg.name
+			br
+			b Clan Focus
+			ul
+				each focus in ninjaDetails.family.focus
+					li= focus
+			br
+	h1
+		= fluff.bigQuote
+	section
+		h2 Everyone has a story. What&apos;s yours, stranger?
+		each bod in details.story
+			if bod.name
+				h3= bod.name
+			each par in bod.details
+				= par
+				br
+	footer
