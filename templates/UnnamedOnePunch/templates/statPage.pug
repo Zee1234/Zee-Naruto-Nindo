@@ -68,14 +68,16 @@
 		h1
 			| personality
 		section
-			| You can insert what you wrote from your application, as well as update when something changes the personality of your character.
-			br
-			br
+			each str in details.personality 
+				p= str
 			b Goals
-			| :
+			ul
+				each str in details.goals
+					li= str
 			br
-			b Fears
-			| :
+			ul
+				each str in details.fears
+					li= str
 		h1
 			| appearance
 		section
