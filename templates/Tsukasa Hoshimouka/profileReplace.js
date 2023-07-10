@@ -1,0 +1,1 @@
+Array.from(document.querySelectorAll('img[src="https://i.imgur.com/C1EGxYk.png"]')).forEach(e => e.src = 'https://i.imgur.com/By06afF.png')

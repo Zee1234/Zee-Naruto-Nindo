@@ -1,0 +1,333 @@
+.development
+	.dev_traits
+		.webLink(data-modal='#tabName1')
+			span
+				b basics
+			i.cp.cp-book-o
+		.webLink(data-modal='#tabName2')
+			span
+				b equip/items
+			i.cp.cp-pencil-and-ruler-o
+		.webLink(data-modal='#tabName3')
+			span
+				b threads
+			i.cp.cp-agenda-o
+		.webLink(data-modal='#tabName4')
+			span
+				b Jutsu
+			i.cp.cp-cabinet-o
+		.webLink(data-modal='#tabName5')
+			span
+				b skills
+			i.cp.cp-controls
+		.webLink(data-modal='#tabName6')
+			span
+				b plotter
+			i.cp.cp-controls
+	#tabName1.devTab.active
+		header
+			img(src=pictures.basics)
+			div
+			p
+				a(href=details.appLink)
+					b= details.first
+					= ' '+details.last
+		h1
+			| the facts
+		section
+			br
+			b Age
+			= ' '+details.age
+			br
+			b Birthday
+			= ' '+details.birthday
+			br
+			b Gender
+			= ' '+details.gender
+			br
+			b Rank
+			= ' '+ninjaDetails.rank
+			br
+			b Element
+			each ele in ninjaDetails.elements 
+				br
+				= ele
+			br
+			b Stamina Pool
+			= ' '+stats.stamina*10
+			br
+			b Word Count Bank
+			= lists.wordBank
+		h1
+			| specialties
+		section
+			each spec in ninjaDetails.specs
+				h3
+					i.cp.cp-chevron-down= spec.name
+				blockquote= spec.blockquote
+		h1
+			| personality
+		section
+			each str in details.personality 
+				p= str
+			b Goals
+			ul
+				each str in details.goals
+					li= str
+			br
+			ul
+				each str in details.fears
+					li= str
+		h1
+			| appearance
+		section
+			each str in details.description 
+				= str
+				br
+				br
+			br
+			br
+			b Height
+			= ': '+details.height
+			br
+			b Build
+			= ': '+details.build
+	#tabName2.devTab
+		header
+			img(src=pictures.items)
+			div
+			p
+				a(href='#')
+					b your
+					|	equipment 
+					b and
+					|	items
+		h1
+			| equipment
+		section
+			h2 Basic Equipment
+			ul
+				each item in lists.equipment.basic
+					li
+						a(href=item.link)= item.name
+			h2 Special Equipment
+			each special in lists.equipment.special
+				heading
+					span
+						a(href=special.link)
+							b= special.name
+					i.cp.cp-quote
+				br
+				each desc in special.description
+					br
+					= desc
+		h1
+			| items
+		section
+			h2 Basic Items
+			ul
+				each item in lists.items.basic
+					li
+						a(href=item.link)= item.name
+			h2 Special Items
+			each special in lists.items.special
+				heading
+					span
+						a(href=special.link)
+							b= special.name
+					i.cp.cp-quote
+				br
+				each desc in special.description
+					br
+					= desc
+	#tabName3.devTab
+		header
+			img(src=pictures.threads, alt="Art by Lalaso")
+			div
+			p
+				a(href='#')
+					b Your
+					|	Story
+		section
+			.development.tracker
+				div
+					fieldset
+						each thread in threads
+							.t_active
+								i.cp.cp-pin
+								a(href=thread.link)= thread.name
+								= thread.status
+				div
+	#tabName4.devTab
+		header
+			img(src=pictures.jutsu)
+			div
+			p
+				a(href='#')
+					b Your
+					|	Jutsu
+		h1
+			| S Rank
+		section
+			each spec in jutsu.s
+				h2= spec.spec
+				ul
+					each jutsu in spec.jutsus
+						li
+							a(href=jutsu.link)= jutsu.name
+						br
+		h1
+			| A Rank
+		section
+			each spec in jutsu.a
+				h2= spec.spec
+				ul
+					each jutsu in spec.jutsus
+						li
+							a(href=jutsu.link)= jutsu.name
+						br
+		h1
+			| B Rank
+		section
+			each spec in jutsu.b
+				h2= spec.spec
+				ul
+					each jutsu in spec.jutsus
+						li
+							a(href=jutsu.link)= jutsu.name
+						br
+		h1
+			| C Rank
+		section
+			each spec in jutsu.c
+				h2= spec.spec
+				ul
+					each jutsu in spec.jutsus
+						li
+							a(href=jutsu.link)= jutsu.name
+						br
+		h1
+			| D Rank
+		section
+			each spec in jutsu.d
+				h2= spec.spec
+				ul
+					each jutsu in spec.jutsus
+						li
+							a(href=jutsu.link)= jutsu.name
+						br
+		h1
+			| E Rank
+		section
+			each spec in jutsu.e
+				h2= spec.spec
+				ul
+					each jutsu in spec.jutsus
+						li
+							a(href=jutsu.link)= jutsu.name
+						br
+	#tabName5.devTab
+		header
+			img(src=pictures.skills, alt="Art by Nekodou")
+			div
+			p
+				a(href='#')
+					b your
+					|	skills
+		section
+			each skill in skills
+				heading
+					span
+						a(href=skill.link)
+							b= skill.name
+					i.cp.cp-quote
+				br
+				br
+				= skill.details
+				br
+				br
+	#tabName6.devTab
+		header
+			img(src=pictures.plotter, alt="Art by Sumi Tooru")
+			div
+			p
+				a(href='#')
+					b your
+					|	plots
+		h1
+			| foes
+		each foe in plotter.foes
+			.imageHeader
+				img(src=foe.picture)
+				div
+				p
+					a(href=foe.link)
+						b= foe.name.first
+						= ' '+foe.name.last
+					= ' '+foe.quote
+			section
+				each para in foe.plot
+					= para
+					br
+		h1
+			| lovers
+		each foe in plotter.lovers
+			.imageHeader
+				img(src=foe.picture)
+				div
+				p
+					a(href=foe.link)
+						b= foe.name.first
+						= ' '+foe.name.last
+					= ' '+foe.quote
+			section
+				each para in foe.plot
+					= para
+					br
+		h1
+			| friends
+		each foe in plotter.friends
+			.imageHeader
+				img(src=foe.picture)
+				div
+				p
+					a(href=foe.link)
+						b= foe.name.first
+						= ' '+foe.name.last
+					= ' '+foe.quote
+			section
+				each para in foe.plot
+					= para
+					br
+	footer
+		.dev_traits
+			div
+				span
+					b= stats.stamina
+					|	Stamina
+				i.cp.cp-stethoscope
+			div
+				span
+					b= stats.potency
+					|	Potency
+				i.cp.cp-sword-o
+			div
+				span
+					b= stats.control
+					|	Control
+				i.cp.cp-lotus
+			div
+				span
+					b= stats.dexterity
+					|	Dexterity
+				i.cp.cp-bow-and-arrow-o
+			div
+				span
+					b= stats.strength
+					|	Strength
+				i.cp.cp-pirate-swords-o
+			div
+				span
+					b= stats.health
+					|	Health
+				i.cp.cp-first-aid-o

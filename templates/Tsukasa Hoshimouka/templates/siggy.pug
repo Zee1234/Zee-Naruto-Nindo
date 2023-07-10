@@ -1,0 +1,29 @@
+link(rel="stylesheet", href="siggy.scss")
+script(src="siggy.js") 
+.zee-atari-siggy-container
+	input.zee-atari-siggy-tabName1.zee-atari-siggy-selector(type="checkbox", checked)
+	input.zee-atari-siggy-tabName2.zee-atari-siggy-selector(type="checkbox")
+	input.zee-atari-siggy-tabName3.zee-atari-siggy-selector(type="checkbox")
+	input.zee-atari-siggy-tabName4.zee-atari-siggy-selector(type="checkbox")
+	input.zee-atari-siggy-tabName5.zee-atari-siggy-selector(type="checkbox")
+	input.zee-atari-siggy-tabName6.zee-atari-siggy-selector(type="checkbox")
+
+	.labels 
+		label(onclick="zeeAtariSiggyClick('tabName1')") Basic
+		label(onclick="zeeAtariSiggyClick('tabName2')") Items
+		label(onclick="zeeAtariSiggyClick('tabName3')") Threads
+		label(onclick="zeeAtariSiggyClick('tabName4')") Jutsu
+		label(onclick="zeeAtariSiggyClick('tabName5')") Skills
+		label(onclick="zeeAtariSiggyClick('tabName6')") Plotter	
+	.frames
+		iframe.zee-atari-siggy-tabName1(src="https://nindo.jcink.net/index.php?showtopic=3739#tabName1", frameborder="0") 
+	
+		iframe.zee-atari-siggy-tabName2(src="https://nindo.jcink.net/index.php?showtopic=3739#tabName2", frameborder="0") 
+	
+		iframe.zee-atari-siggy-tabName3(src="https://nindo.jcink.net/index.php?showtopic=3739#tabName3", frameborder="0") 
+	
+		iframe.zee-atari-siggy-tabName4(src="https://nindo.jcink.net/index.php?showtopic=3739#tabName4", frameborder="0") 
+	
+		iframe.zee-atari-siggy-tabName5(src="https://nindo.jcink.net/index.php?showtopic=3739#tabName5", frameborder="0") 
+	
+		iframe.zee-atari-siggy-tabName6(src="https://nindo.jcink.net/index.php?showtopic=3739#tabName6", frameborder="0") 	

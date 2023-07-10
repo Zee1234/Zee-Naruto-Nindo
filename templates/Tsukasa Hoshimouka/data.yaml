@@ -1,0 +1,254 @@
+details:
+  first: Atarisawarinonai 
+  last: Setsumei (Atari)
+  appLink: test
+  age: 21
+  birthday: April 12th
+  gender: Cis male
+  personality:
+    - >-
+      Atari is pretty laid back and free spirited. He is slow to act if it seems that
+      others are handling things well enough, often preferring to just watch people
+      doing what they do best. He is a bit of a people-watcher, though not in a 
+      pervy way, thankfully.
+    - >-
+      Atari has sometimes been called a selfish individual. He does do things 
+      largely for himself. Thankfully, he is also a simple enough person.
+      What he finds good for himself rarely hampers, and often helps, others.
+      He might help an elderly grandmother with their groceries just so that he can
+      go home and check the 'did a good thing today' checkbox.
+      It is not that he dislikes helping others, or views all interactions as a
+      transation.
+    - >-
+      He just does what he wants. And sometimes that seems a bit selfish.
+  description:
+    - >-
+      Atari was born bald, and never grew hair. It was a very long time before
+      the cause was discovered: Atari's broken chakra system does not connect to his
+      hair follicles in any way. Because of this, they simply do not function.
+      So, Atari has rocked the bald look more or less his entire life, except
+      for a brief period where he tried wigs and found them too cumbersome.
+    - >-
+      Atari is normally found wearing baggier clothing, and as such seems rather simply
+      thin. Not unhealthy, but pretty average. If he were to go shirtless, however,
+      or wear tight clothing, one would be able to see the well defined muscles that 
+      he has honed for year. Turns out, being born into a ninja family,
+      but without any chakra, leads one to do some somewhat intense things!
+    - >-
+      His chin comes to somewhat of a point, but something as simple as a 
+      change of angle can make it appear more flat. His skin is often blemishless.
+      Medics who have examined his (somewhat strange) case attribute this to his broken
+      chakra system. Since it 'leaks', his body, particularly his skin, has an excess
+      amount of chakra just floating around, at least when compared to average people. 
+      The hypothesis is that
+      this creates an exceedingly minor medical ninjutsu-like effect that 'heals' the
+      blemishes from his skin.
+    - >-
+      Some rather regretful testing in Atari's past confirms that this offers no other
+      benefits, not even in helping recover from things like paper cuts.
+      Those still sting like hell for far too long.
+  goals:
+    - Explore the world
+    - Meet all sorts of people
+    - Not have to worry about vagrants and vagabonds (or worse!)
+  fears:
+    - Mosquittos
+    - Wasps
+    - >-
+      The anhedonia that arises when one becomes 
+      fully aware of the scale of the world around
+      them and the total lack of significance
+      with which most of us are destined to possess,
+      contributing to a future that will not only
+      not remember us, but not care that we were 
+      once beings that existed.
+  height: 175cm
+  build: Slim but toned
+  story:
+    - name: Birth
+      details:
+        - >-
+          His name was not Atarisawarinonai when he was born. Rather, he was renamed
+          such a few months after birth, when his strange situation was discovered,
+          prompted to be looked into by his lack of hair, and continued lack of growing
+          any.
+        - >-
+          It was upon his diagnosis as 'inept' (according to the doctors and his family),
+          based upon the sorry state of his chakra system, that he was granted the name.
+          He remembers no other name, so it is his, even if it is a bit strange.
+          It caused him distress, at one point. He did genuinely dislike the name.
+          But he stopped caring at some point. 
+    - name: Growing Up
+      details:
+        - >-
+          Atari did not have a simple childhood. His family was, and is, a ninja family.
+          To them, his condition was tantamount to failure.
+          There were nights were Atari was surprised they did not just adopt him away.
+          Atari felt no love from his family. A sense of duty to raise a child, perhaps,
+          but little else. He was quite clearly the 'runt' of the family.
+        - >-
+          For a period, this drove him to prove them wrong. He wanted their attention,
+          their affection, and, as far as he knew, the only way to get that was to be a
+          competent ninja. He met many people who were willing to help him. Some far more
+          ... enthusiastic than others. Not to say the enthusiasm was a bad thing,
+          per se. But it most certainly was a thing.
+        - >-
+          It was never enough, however. Atari was not... compatible with traditional
+          ninja schooling. He could do none of the things that were required of him.
+          It was only by special exception that he was allowed to advance past
+          the life of an Academy Student. And his family's reaction to that?
+        - >
+          "Hey, Atari! Who'd you bribe? How much was it? I wanna take the easy way!"
+        - >
+          "Oh shush with your teasing."
+        - >
+          "Yeah! I bet he didn't bribe anybody. I bet it was pity!"
+    - name: Adulthood
+      details:
+        - >-
+          Atari left his family's household as soon as he was able. Flying in the face
+          of countless years, generations, of tradition, he petitioned to rescind his
+          family name. While begrudgingly accepted by the powers that be, they also
+          suggested changing his 'given name', even if it were not his originally
+          given name. But Atari refused, instead choosing a last name to somewhat
+          'match' what he had been given.
+        - >-
+          Atari had a belief in himself. The name was a reminder of them, yes.
+          But it was also a reminder that he was himself, not the person they had
+          made him out to be. He had this. And he would do it for himself.
+        - Not them.
+fluff:
+  smallQuote: What is strength if you don't care?
+  bigQuote: A hero is not the one who never falls. A hero is the one who gets up, again and again, never losing sight of their dreams.
+stats:
+  stamina: 48
+  potency: 1
+  control: 1
+  dexterity: 50
+  strength: 100
+lists:
+  wordBank: 0
+  items:
+    basic:
+      - name: No items yet
+        link: \#
+    special:
+      - name: No special items yet
+        link: \#
+        description:
+          - >-
+              There is nothing here yet
+  equipment:
+    basic:
+      - name: Birthday Suit
+        link: \#
+    special:
+      - name: Still nothing equiped
+        link: \#
+        description:
+          - >-
+              Please ignore this
+ninjaDetails:
+  affiliation: Konohagakure
+  rank: D
+  elements:
+    - None
+  specs:
+    - name: Taijutsu
+      level: 3
+      blockquote: Up to A rank Taijutsu
+  family:
+    clan: false
+      # name: None
+      # link: \#
+    kkg: false
+      # name: None
+      # link: \#
+    focus: false
+      # - Ninjutsu
+      # - Genjutsu
+      # - Fuuinjutsu
+      # - OPjutsu
+threads:
+  - name: No threads yet
+    link: \#
+    status: Inactive
+
+jutsu:
+  s:
+    - spec: Taijutsu
+      jutsus:
+        - name: No jutsu yet
+          link: \#
+  a:
+    - spec: Taijutsu
+      jutsus:
+      - name: Or here
+        link: \#
+  b:
+    - spec: Taijutsu
+      jutsus:
+      - name:  Or here
+        link: \#
+  c:
+    - spec: Taijutsu
+      jutsus:
+      - name:  Or here
+        link: \#
+  d:
+    - spec: Taijutsu
+      jutsus:
+      - name:  Or here
+        link: \#
+  e:
+    - spec: Taijutsu
+      jutsus:
+      - name:  Or here
+        link: \#
+
+skills:
+  - name: What are you looking at?
+    link: \#
+    details: I CAN'T DO CHAKRA SHIT, CAPICHE?
+
+plotter:
+  foes:
+    - name:
+        first: Nobody, 
+        last: Please
+      link: \#
+      quote: What a fucker
+      plot:
+        - >-
+          What is plot?
+      picture: https://via.placeholder.com/400x100
+  lovers:
+    - name:
+        first: Him
+        last: Self
+      link: \#
+      quote: Self love is important
+      plot:
+        - >-
+          Check the quote
+      picture: https://via.placeholder.com/400x100
+  friends:
+    - name:
+        first: Nezumi
+        last: ""
+      link: \#
+      quote: Literally just a rat
+      plot:
+        - >-
+          The world is so lonely...
+      picture: https://via.placeholder.com/400x100
+
+
+pictures:
+  app: https://i.imgur.com/87ALT8L.png
+  basics: https://i.imgur.com/Sw09Kh1.png
+  items: https://i.imgur.com/NavZA2C.png
+  threads: https://i.imgur.com/C5xqnzU.png
+  jutsu: https://i.imgur.com/LG7AseA.png
+  skills: https://i.imgur.com/5lJgG7L.png
+  plotter: https://i.imgur.com/3XplSya.png

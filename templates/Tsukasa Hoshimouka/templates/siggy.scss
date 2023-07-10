@@ -1,0 +1,52 @@
+.zee-atari-siggy-tabName {
+	&1, &2, &3, &4, &5, &6 {
+			display: none;
+			@at-root iframe#{&} {
+				flex-grow: 1;
+				border: none;
+				margin: 0;
+				padding: 0;
+				// max-width: 500px;
+			}
+	}
+}
+.zee-atari-siggy-tabName1:checked ~ .frames .zee-atari-siggy-tabName1,
+.zee-atari-siggy-tabName2:checked ~ .frames .zee-atari-siggy-tabName2,
+.zee-atari-siggy-tabName3:checked ~ .frames .zee-atari-siggy-tabName3,
+.zee-atari-siggy-tabName4:checked ~ .frames .zee-atari-siggy-tabName4,
+.zee-atari-siggy-tabName5:checked ~ .frames .zee-atari-siggy-tabName5,
+.zee-atari-siggy-tabName6:checked ~ .frames .zee-atari-siggy-tabName6 {
+	display: block;
+}
+.zee-atari-siggy-container {
+	// width: 50vw;
+	overflow: scroll;
+	display: grid;
+	// grid-template-rows: 1fr 1fr;
+	grid-template-columns: 1fr;
+	gap: 10px;
+
+	.labels {
+		max-width: 100%;
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: row;
+		gap: 10px;
+		justify-content: space-around;
+		label {
+			width: 100px;
+			display: block;
+			text-align: center;
+			padding: 10px;
+			border-radius: 50px;
+			background-color: red;
+			line-height: 10px;
+			height: 10px;
+		}
+	}
+	.frames {
+		max-width: 100%;
+		display: flex;
+	}
+
+}
