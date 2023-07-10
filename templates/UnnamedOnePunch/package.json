@@ -3,21 +3,25 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "build": "parcel build templates/*.pug",
-    "dev": "parcel templates/*.pug",
-    "dev-open": "parcel templates/*.pug --open",
-    "dev-app": "parcel templates/characterApp.pug",
-    "dev-post": "parcel templates/postTemplate01.pug",
-    "dev-stat": "parcel templates/statPage.pug",
-    "dev-app-open": "parcel templates/characterApp.pug --open",
-    "dev-post-open": "parcel templates/postTemplate01.pug --open",
-    "dev-stat-open": "parcel templates/statPage.pug --open"
+    "build": "parcel build templates/*.pug --no-cache",
+    "dev": "parcel templates/*.pug --no-cache",
+    "dev-open": "parcel templates/*.pug --open --no-cache",
+    "dev-app": "parcel templates/characterApp.pug --no-cache",
+    "dev-post": "parcel templates/postTemplate01.pug --no-cache",
+    "dev-stat": "parcel templates/statPage.pug --no-cache",
+    "dev-sig": "parcel templates/siggy.pug --no-cache",
+    "dev-app-open": "parcel templates/characterApp.pug --open --no-cache",
+    "dev-post-open": "parcel templates/postTemplate01.pug --open --no-cache",
+    "dev-stat-open": "parcel templates/statPage.pug --open --no-cache",
+    "dev-sig-open": "parcel templates/siggy.pug --open --no-cache",
+    "toJSON": "node toJSON.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@parcel/transformer-pug": "^2.9.2",
+    "@parcel/transformer-sass": "^2.9.2",
     "parcel": "^2.9.2",
     "yaml": "^2.3.1"
   }

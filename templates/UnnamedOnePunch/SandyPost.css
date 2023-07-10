@@ -1,0 +1,15 @@
+.zee-sandy-post-template-container {
+	--border: #4bc7cf;
+	--accent: 60.4, 85.9, 87.8;
+}
+.zee-sandy-post-template-container div {
+	background: #3b3330;
+	color: #23afa9;
+	border-color: var(--border);
+}
+.zee-sandy-post-template-container h1 {
+	background: radial-gradient(circle, rgba(245, 66, 71, 1) 0%, rgba(60, 86, 87, 1) 23%, rgba(75, 199, 207, 1) 100%);
+} /* first color in gradient should be village color... maybe make this smarter... */
+.zee-sandy-post-template-container b {
+	color: #f9d199;
+}

@@ -26,7 +26,7 @@
 			i.cp.cp-controls
 	#tabName1.devTab.active
 		header
-			img(src='https://via.placeholder.com/400x180')
+			img(src=pictures.basics)
 			div
 			p
 				a(href=details.appLink)
@@ -54,7 +54,7 @@
 				= ele
 			br
 			b Stamina Pool
-			= stats.stamina*10
+			= ' '+stats.stamina*10
 			br
 			b Word Count Bank
 			= lists.wordBank
@@ -94,7 +94,7 @@
 			= ': '+details.build
 	#tabName2.devTab
 		header
-			img(src='https://via.placeholder.com/400x180')
+			img(src=pictures.items)
 			div
 			p
 				a(href='#')
@@ -107,11 +107,11 @@
 		section
 			h2 Basic Equipment
 			ul
-				each item in lists.items.basic
+				each item in lists.equipment.basic
 					li
 						a(href=item.link)= item.name
 			h2 Special Equipment
-			each special in lists.items.special
+			each special in lists.equipment.special
 				heading
 					span
 						a(href=special.link)
@@ -142,7 +142,7 @@
 					= desc
 	#tabName3.devTab
 		header
-			img(src='https://via.placeholder.com/400x180')
+			img(src=pictures.threads, alt="Art by Lalaso")
 			div
 			p
 				a(href='#')
@@ -160,7 +160,7 @@
 				div
 	#tabName4.devTab
 		header
-			img(src='https://via.placeholder.com/400x180')
+			img(src=pictures.jutsu)
 			div
 			p
 				a(href='#')
@@ -228,7 +228,7 @@
 						br
 	#tabName5.devTab
 		header
-			img(src='https://via.placeholder.com/400x180')
+			img(src=pictures.skills, alt="Art by Nekodou")
 			div
 			p
 				a(href='#')
@@ -248,7 +248,7 @@
 				br
 	#tabName6.devTab
 		header
-			img(src='https://via.placeholder.com/400x180')
+			img(src=pictures.plotter, alt="Art by Sumi Tooru")
 			div
 			p
 				a(href='#')
