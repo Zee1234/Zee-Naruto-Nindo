@@ -14,7 +14,8 @@
     "dev-post-open": "parcel templates/postTemplate01.pug --open --no-cache",
     "dev-stat-open": "parcel templates/statPage.pug --open --no-cache",
     "dev-sig-open": "parcel templates/siggy.pug --open --no-cache",
-    "toJSON": "node toJSON.js"
+    "toJSON": "node toJSON.js",
+    "fullbuild": "npm run toJSON && npm run build"
   },
   "keywords": [],
   "author": "",
