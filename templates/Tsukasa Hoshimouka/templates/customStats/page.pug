@@ -1,0 +1,228 @@
+.zee-tsukasa-custom-stat-container
+	.inner-container
+		.categories
+			.webLink(data-modal="#personals")
+				span Personals
+				i.cp.cp-book-o
+			.webLink(data-modal="#inventory")
+				span Inventory
+				i.cp.cp-pencil-and-ruler-o
+			.webLink(data-modal="#databook")
+				span Databook
+				i.cp.cp-cabinet-o
+			.webLink(data-modal="#skills")
+				span Skills
+				i.cp.cp-controls
+
+		#personals.devTab.active
+			div
+				header
+				h1 Basic Details
+				section 
+					br
+					b Age
+					= ' '+details.age
+					br
+					b Birthday
+					= ' '+details.birthday
+					br
+					b Gender
+					= ' '+details.gender
+					br
+					b Rank
+					= ' '+ninjaDetails.rank
+					br
+					b Element
+					each ele in ninjaDetails.elements 
+						br
+						= ele
+					br
+					b Stamina Pool
+					= ' '+stats.stamina*10
+					br
+					b Word Count Bank
+					= ' '+lists.wordBank
+				h1 specialties
+				section
+					each spec in ninjaDetails.specs
+						h3
+							i.cp.cp-chevron-down= spec.name
+						blockquote= spec.blockquote
+				h1 personality
+				section
+					each str in details.personality 
+						p= str
+					b Goals
+					ul
+						each str in details.goals
+							li= str
+					br
+					ul
+						each str in details.fears
+							li= str
+				h1 appearance
+				section
+					each str in details.description 
+						= str
+						br
+						br
+					br
+					br
+					b Height
+					= ': '+details.height
+					br
+					b Build
+					= ': '+details.build
+		#inventory.devTab
+			div
+				header
+				h1 Equipment
+				section
+					h2 Basic Equipment
+					ul
+						each item in lists.equipment.basic
+							li
+								a(href=item.link)= item.name
+					h2 Special Equipment
+					each special in lists.equipment.special
+						heading
+							span
+								a(href=special.link)
+									b= special.name
+							i.cp.cp-quote
+						br
+						each desc in special.description
+							br
+							= desc
+				h1
+					| items
+				section
+					h2 Basic Items
+					ul
+						each item in lists.items.basic
+							li
+								a(href=item.link)= item.name
+					h2 Special Items
+					each special in lists.items.special
+						heading
+							span
+								a(href=special.link)
+									b= special.name
+							i.cp.cp-quote
+						br
+						each desc in special.description
+							br
+							= desc
+				
+		#databook.devTab
+			div
+				header
+				h1
+					| S Rank
+				section
+					each spec in jutsu.s
+						h2= spec.spec
+						ul
+							each jutsu in spec.jutsus
+								li
+									a(href=jutsu.link)= jutsu.name
+								br
+				h1
+					| A Rank
+				section
+					each spec in jutsu.a
+						h2= spec.spec
+						ul
+							each jutsu in spec.jutsus
+								li
+									a(href=jutsu.link)= jutsu.name
+								br
+				h1
+					| B Rank
+				section
+					each spec in jutsu.b
+						h2= spec.spec
+						ul
+							each jutsu in spec.jutsus
+								li
+									a(href=jutsu.link)= jutsu.name
+								br
+				h1
+					| C Rank
+				section
+					each spec in jutsu.c
+						h2= spec.spec
+						ul
+							each jutsu in spec.jutsus
+								li
+									a(href=jutsu.link)= jutsu.name
+								br
+				h1
+					| D Rank
+				section
+					each spec in jutsu.d
+						h2= spec.spec
+						ul
+							each jutsu in spec.jutsus
+								li
+									a(href=jutsu.link)= jutsu.name
+								br
+				h1
+					| E Rank
+				section
+					each spec in jutsu.e
+						h2= spec.spec
+						ul
+							each jutsu in spec.jutsus
+								li
+									a(href=jutsu.link)= jutsu.name
+								br
+				
+		#skills.devTab
+			div
+				header
+				h1 Skills
+				section
+					each skill in skills
+						heading
+							span
+								a(href=skill.link)
+									b= skill.name
+							i.cp.cp-quote
+						br
+						br
+						= skill.details
+						br
+						br
+		footer
+			.dev_traits
+				div
+					span
+						b= stats.stamina
+						|	Stamina
+					i.cp.cp-stethoscope
+				div
+					span
+						b= stats.potency
+						|	Potency
+					i.cp.cp-sword-o
+				div
+					span
+						b= stats.control
+						|	Control
+					i.cp.cp-lotus
+				div
+					span
+						b= stats.dexterity
+						|	Dexterity
+					i.cp.cp-bow-and-arrow-o
+				div
+					span
+						b= stats.strength
+						|	Strength
+					i.cp.cp-pirate-swords-o
+				div
+					span
+						b= stats.health
+						|	Health
+					i.cp.cp-first-aid-o

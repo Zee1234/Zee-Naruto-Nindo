@@ -1,0 +1,59 @@
+.zee-tsukasa-custom-stat-container
+	.inner-container.secondary
+		h1.bigger Your Story
+		section
+			.development.tracker
+				div
+					fieldset
+						each thread in threads
+							.t_active
+								i.cp.cp-pin
+								a(href=thread.link)= thread.name
+								= thread.status
+				div
+		h1.bigger Plotter
+		h1
+			| friends
+		each foe in plotter.friends
+			.imageHeader
+				img(src=foe.picture)
+				div
+				p
+					a(href=foe.link)
+						b= foe.name.first
+						= ' '+foe.name.last
+					= ' '+foe.quote
+			section
+				each para in foe.plot
+					= para
+					br
+		h1
+			| foes
+		each foe in plotter.foes
+			.imageHeader
+				img(src=foe.picture)
+				div
+				p
+					a(href=foe.link)
+						b= foe.name.first
+						= ' '+foe.name.last
+					= ' '+foe.quote
+			section
+				each para in foe.plot
+					= para
+					br
+		h1
+			| lovers
+		each foe in plotter.lovers
+			.imageHeader
+				img(src=foe.picture)
+				div
+				p
+					a(href=foe.link)
+						b= foe.name.first
+						= ' '+foe.name.last
+					= ' '+foe.quote
+			section
+				each para in foe.plot
+					= para
+					br

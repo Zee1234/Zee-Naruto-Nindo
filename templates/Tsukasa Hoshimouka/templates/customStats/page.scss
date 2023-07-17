@@ -1,0 +1,106 @@
+.zee-tsukasa-custom-stat-container {
+	--blank: white;
+	--border: #999;
+	--main-color: #333;
+
+	box-sizing: border-box;
+	margin-inline: auto;
+	max-width: 500px;
+	border: 10px solid var(--main-color);
+
+	* {
+		box-sizing: border-box;
+	}
+
+	.inner-container {
+		border: 1px solid #262626;;
+	}
+
+	.categories {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		gap: 10%;
+		background: var(--main-color);
+		padding: 20px;
+		align-content: space-around;
+
+		.webLink {
+			border: 3px solid var(--border);
+			padding: 10px;
+			background: var(--blank);
+			border-radius: 10px;
+			color: var(--main-color);
+			font: 4000 1em 'montserrat', sans-serif;
+			text-transform: uppercase;
+			color: rgb(var(--accent));
+
+			.cp {
+				float: right;
+				font-weight: bold;
+				padding-left: 15px;
+			}
+		}
+	}
+
+	h1 {
+		background: rgb(var(--accent));
+		color: white;
+		padding: 10px;
+		text-transform: uppercase;
+		font: 500 2em 'montserrat', sans-serif;
+		margin: 0;
+		font-variant: small-caps;
+	}
+
+	.bigger {
+		font-size: 3em;
+		background-color: var(--main-color);
+	}
+
+	.devTab {
+		display: grid;
+		grid-template-rows: 0fr;
+		transition: grid-template-rows 0.5s ease-in-out;
+		overflow: hidden;
+
+		section {
+			background: var(--main-color);
+			color: white;
+			border: none;
+		}
+
+		b {
+			color: rgb(var(--accent));
+		}
+
+		
+
+		&.active {
+			grid-template-rows: 1fr;
+		}
+
+		& > div {
+			overflow: hidden;
+			align-self: end;
+		}
+	}
+
+	.dev_traits {
+		border: none;
+		border-bottom: 5px solid rgb(var(--accent));
+		border-top: 5px solid rgb(var(--accent));
+		background-color: var(--main-color);
+	}
+
+	.secondary {
+		section {
+			background: var(--main-color);
+			color: white;
+			border: none;
+		}
+		.bigger {
+			border-top: 10px solid rgb(var(--accent));
+			border-bottom: 10px solid rgb(var(--accent));
+		}
+	}
+}
