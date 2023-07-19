@@ -170,9 +170,15 @@ ninjaDetails:
       # - Fuuinjutsu
       # - OPjutsu
 threads:
-  - name: No threads yet
-    link: \#
-    status: Inactive
+  - name: The Big Sleep
+    link: https://nindo.jcink.net/index.php?showtopic=3936&st=0&#entry7192
+    status: Active
+  - name: Brawl Bar (We Can Talk About This)
+    link: https://nindo.jcink.net/index.php?showtopic=3843&st=0&#entry6913
+    status: Active
+  - name: Vacation's Where I Wanna Be! (Beach missions)
+    link: https://nindo.jcink.net/index.php?showtopic=3873&st=0&#entry7081
+    status: Active
 
 jutsu:
   s:
