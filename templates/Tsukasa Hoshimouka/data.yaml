@@ -119,10 +119,10 @@ ninjaDetails:
   specs:
     - name: Iryojutsu
       level: 2
-      blockquote: Up to A rank Taijutsu
+      blockquote: Up to A rank Iryojutsu
     - name: Ninjutsu
       level: 1
-      blockquote: Up to B rank Taijutsu
+      blockquote: Up to B rank Ninjutsu
   family:
     clan:
       name: Hoshimouka
