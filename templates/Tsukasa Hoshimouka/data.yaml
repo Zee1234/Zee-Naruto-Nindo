@@ -169,12 +169,16 @@ jutsu:
   e:
     - spec: Ninjutsu
       jutsus:
-      - name:  Or here
-        link: \#
+      - name:  Transformation Technique
+        link: https://nindo.jcink.net/index.php?showtopic=2338
+      - name: Clone Jutsu
+        link: https://nindo.jcink.net/index.php?showtopic=2356
+      - name: Body Replacement Technique
+        link: https://nindo.jcink.net/index.php?showtopic=2361
 
 skills:
-  - name: N/A
-    link: \#
+  - name: Surface Walking
+    link: https://nindo.jcink.net/index.php?showtopic=2357
     details: N/A
 
 plotter:
