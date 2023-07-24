@@ -234,3 +234,18 @@ pictures:
   plotter:
     src: asdf
     alt: asdf
+    
+    
+longTerm:
+  ryo:
+    - type: gain
+      reason: creation
+      amount: 20000
+    - type: gain
+      reason: creation
+      amount: 1 bundle
+      include: false
+  wordback:
+    - type: Gain
+      reason: creation
+      amount: 0
