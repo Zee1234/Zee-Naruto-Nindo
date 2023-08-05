@@ -136,9 +136,12 @@ ninjaDetails:
       # - Fuuinjutsu
       # - OPjutsu
 threads:
-  - name: No threads yet
-    link: \#
-    status: Inactive
+  - name: The K-9 Killer (Mission)
+    link: https://nindo.jcink.net/index.php?showtopic=4153&hl=
+    status: Active
+  - name: Hello Kumogakure!
+    link: https://nindo.jcink.net/index.php?showtopic=4136&hl=
+    status: Active
 
 jutsu:
   s:

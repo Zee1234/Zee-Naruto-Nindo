@@ -5,9 +5,9 @@
   "scripts": {
     "toJSON": "node toJSON.js",
     "build-target": "parcel build --no-cache",
-    "build-css": "parcel build ./templates/customStats/page.scss",
-    "build-stat": "parcel build ./templates/customStats/page.pug",
-    "build-plot": "parcel build ./templates/customStats/plotter.pug",
+    "build-css": "parcel build ./templates/customStats/page.scss --no-cache",
+    "build-stat": "parcel build ./templates/customStats/page.pug --no-cache",
+    "build-plot": "parcel build ./templates/customStats/plotter.pug --no-cache",
     "build-all": "npm run toJSON && npm run build-css && npm run build-stat && npm run build-plot"
   },
   "keywords": [],
